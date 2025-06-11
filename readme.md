@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for OBS Studio</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,25 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Copy the [`themes`](./themes/) folder into your OBS `themes` folder (refer to the [OBS Studio Wiki](https://github.com/obsproject/obs-studio/wiki/Custom-Themes#installing-custom-themes)).
+2. Open OBS > Settings > Appearance.
+3. Select `Rose Pine` in the Theme dropdown and select a variant in the Style dropdown.
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+**Rosé Pine**
+
+![Rosé Pine with OBS Studio](https://github.com/user-attachments/assets/70142ae2-13b6-404c-a607-2cc4c6a05339)
+
+**Rosé Pine Moon**
+
+![Rosé Pine Moon with OBS Studio](https://github.com/user-attachments/assets/bba4c8f2-588d-4c31-be99-2173c3488f90)
+
+**Rosé Pine Dawn**
+
+![Rosé Pine Dawn with OBS Studio](https://github.com/user-attachments/assets/31e601e8-e913-41aa-95fb-f0216e697572)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [darkthemer](https://github.com/darkthemer)
+- [Xurdejl](https://github.com/Xurdejl) (used [Catppuccin's OBS](https://github.com/catppuccin/obs) as template file)
